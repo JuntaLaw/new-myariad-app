@@ -1,14 +1,12 @@
-import { useState } from 'react' 
-import './App.css'
+import React from 'react';
+import AuthenticatedUser from './components/AuthenticatedUser';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-    </>
-  )
+    <div className="App">
+      <AuthenticatedUser />
+    </div>
+  );
 }
 
-export default App
+export default App;
