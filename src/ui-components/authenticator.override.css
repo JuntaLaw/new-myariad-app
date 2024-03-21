@@ -9,10 +9,7 @@
     --amplify-components-tabs-item-color: var(--amplify-colors-neutral-80);
     --amplify-components-tabs-item-active-color: var(--amplify-colors-purple-100);
     --amplify-components-button-link-color: var(--amplify-colors-purple-80);
-  }
-  
-  
- 
+  } 
   
   .amplify-authenticator {
     display: flex;
@@ -33,5 +30,11 @@
       to right,
       var(--amplify-colors-purple-80),
       var(--amplify-colors-blue-40)
-    );
+    ) !important;
+  } 
+
+  .authenticated-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   } 
