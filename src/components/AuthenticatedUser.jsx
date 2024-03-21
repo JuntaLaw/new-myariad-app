@@ -1,6 +1,7 @@
 import React from 'react';
 import { withAuthenticator } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
+import '@aws-amplify/ui-react/styles.css'; // or 'aws-amplify-react/dist/styles.css'
+// import '../../src/styles/AuthenticatedUser.css';
 
 function AuthenticatedUser({ signOut, user }) {
   return (
