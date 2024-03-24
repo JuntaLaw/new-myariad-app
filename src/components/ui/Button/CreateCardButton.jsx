@@ -4,12 +4,12 @@ import { PiNotePencil } from 'react-icons/pi';
 
 const  CreateCardButton = () => {
     return (
-        <Link to="/" className="btn btn-ghost glass my-4 w-30">
-            <div className='flex flex-row justify-start items-center'>
-                <PiNotePencil size={25} className="mr-2" />
-                <p>Add Card</p>
+        // <div className="btn btn-ghost glass my-4 w-30">
+            <div className='btn my-2 w-30 flex flex-row justify-start items-center'>
+                <PiNotePencil size={25} className="" />
+                <p className='m-2'>新規カード作成</p>
             </div>
-        </Link>
+        // </div>
     );
 };
 
